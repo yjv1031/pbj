@@ -14,16 +14,16 @@ export interface Root {
 
 const RouteArr: Array<Root> = [
     {
-        label: '??',
+        label: 'INTRO',
         children: [
             {
-                path: '/phaser/t1',
-                label: '예시1',
+                path: '/pbj/t1',
+                label: 'COMPANY',
                 element: (<><Temp1 /></>)
             },
             {
-                path: '/phaser/t2',
-                label: '예시2',
+                path: '/pbj/t2',
+                label: 'NOTICE',
                 element: (<><Temp2 /></>)
             }
         ]
